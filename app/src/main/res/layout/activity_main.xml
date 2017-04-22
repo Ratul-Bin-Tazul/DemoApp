@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    tools:context="com.drbt.demoapp.MainActivity">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:id="@+id/tabs"
+        android:orientation="vertical"
+        android:layout_weight="1"
+        android:background="#2f5597">
+
+        <ImageButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/ic_home_white_24dp"
+            android:background="#283593"
+            android:layout_weight="1"
+            android:id="@+id/btn1"
+            android:onClick="changeFragment"/>
+
+        <ImageButton
+            android:id="@+id/btn2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/ic_language_white_24dp"
+            android:background="#2f5597"
+            android:onClick="changeFragment"
+            android:layout_weight="1"
+            />
+
+        <ImageButton
+            android:id="@+id/btn3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/ic_graphic_eq_white_24dp"
+            android:background="#2f5597"
+            android:layout_weight="1"
+            android:onClick="changeFragment"
+            />
+
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/fragment"
+        android:layout_width="0dp"
+        android:overScrollMode="never"
+        android:forceHasOverlappingRendering="false"
+        android:layout_height="match_parent"
+        android:layout_weight="7">
+
+
+    </FrameLayout>
+
+</LinearLayout>

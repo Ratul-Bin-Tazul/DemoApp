@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff">
+
+    <ScrollView
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="2"
+        android:scrollbars="none"
+        android:background="#ECEFF1">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/subtabs"
+            android:orientation="vertical"
+            >
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/selectedmenu_style"
+                android:drawableRight="@drawable/left_indicator_with_shadow2"
+                android:id="@+id/p3b1"
+                android:text="Option 01"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/submenu_style"
+                android:id="@+id/p3b2"
+                android:text="Option 02"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/submenu_style"
+                android:id="@+id/p3b3"
+                android:text="Option 03"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/submenu_style"
+                android:id="@+id/p3b4"
+                android:text="Option 04"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+
+    <!--<LinearLayout-->
+        <!--android:layout_width="0dp"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:id="@+id/details"-->
+        <!--android:overScrollMode="never"-->
+        <!--android:forceHasOverlappingRendering="false"-->
+        <!--android:orientation="vertical"-->
+        <!--android:elevation="32dp"-->
+        <!--android:layout_weight="4"-->
+        <!--android:clipToPadding="false"-->
+        <!--android:padding="10dp">-->
+        <!--<ImageView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_gravity="center_horizontal"-->
+            <!--android:src="@drawable/table_template" />-->
+        <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_gravity="center_horizontal"-->
+            <!--android:layout_marginLeft="7dp"-->
+            <!--android:layout_marginRight="7dp"-->
+            <!--android:layout_marginTop="7dp"-->
+            <!--android:padding="7dp"-->
+            <!--android:background="@drawable/textview_style"-->
+            <!--android:text="This is a sample Paragraph.This is a sample Paragraph.This is a sample Paragraph.This is a sample Paragraph."/>-->
+
+        <!--<LinearLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:orientation="horizontal"-->
+            <!--android:layout_marginTop="10dp"-->
+            <!--android:paddingLeft="10dp"-->
+            <!--android:paddingRight="10dp">-->
+            <!--<TextView-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:text="Name :"-->
+                <!--android:layout_weight="1"/>-->
+            <!--<EditText-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:minWidth="80dp"-->
+                <!--android:maxWidth="80dp"-->
+                <!--android:focusableInTouchMode="true"-->
+                <!--android:background="#b4c7e7"-->
+                <!--android:layout_weight="2"/>-->
+
+            <!--<TextView-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:paddingLeft="15dp"-->
+                <!--android:text="Sell :"-->
+                <!--android:layout_weight="1"/>-->
+            <!--<EditText-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:minWidth="80dp"-->
+                <!--android:maxWidth="80dp"-->
+                <!--android:background="#b4c7e7"-->
+                <!--android:layout_weight="2"/>-->
+
+        <!--</LinearLayout>-->
+
+        <!--<LinearLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:orientation="horizontal"-->
+            <!--android:layout_marginTop="10dp"-->
+            <!--android:paddingLeft="10dp"-->
+            <!--android:paddingRight="10dp">-->
+            <!--<TextView-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:text="Age :"-->
+                <!--android:layout_weight="1"/>-->
+            <!--<EditText-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:minWidth="80dp"-->
+                <!--android:maxWidth="80dp"-->
+                <!--android:layout_gravity="right"-->
+                <!--android:layout_marginLeft="10dp"-->
+                <!--android:background="#b4c7e7"-->
+                <!--android:layout_weight="2"/>-->
+
+            <!--<TextView-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:paddingLeft="15dp"-->
+                <!--android:text="Buy :"-->
+                <!--android:layout_weight="1"/>-->
+            <!--<EditText-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:minWidth="80dp"-->
+                <!--android:maxWidth="80dp"-->
+                <!--android:background="#b4c7e7"-->
+                <!--android:layout_weight="2"/>-->
+
+        <!--</LinearLayout>-->
+    <!--</LinearLayout>-->
+
+
+    <FrameLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="4"
+        android:id="@+id/p3fragment"></FrameLayout>
+
+</LinearLayout>
